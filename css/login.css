@@ -1,0 +1,24 @@
+.main-page{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.main-page h3{
+    font-size: 50px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+}
